@@ -15,6 +15,7 @@ def rus_peasant(a, b):
                 res += b
             a >>= 1
             b <<= 1
+        CACHE[key] = res
     return res
 
 
